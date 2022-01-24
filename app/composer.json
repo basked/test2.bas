@@ -1,0 +1,19 @@
+{
+    "name": "basked/app",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Basked\\App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "baske",
+            "email": "basket.baza@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/var-dumper": "5.4.x-dev"
+    }
+}
