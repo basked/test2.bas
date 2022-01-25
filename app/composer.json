@@ -7,7 +7,9 @@
             "Classes\\": "classes/",
             "Lessons\\L01\\": "lessons/l01"
         },
-        "files": ["helpers/helpers.php"]
+        "files": ["helpers/helpers.php"],
+        "classmap": ["patterns/creational/factory_method/Document",
+                   "patterns/creational/factory_method/Report"]
     },
     "authors": [
         {
