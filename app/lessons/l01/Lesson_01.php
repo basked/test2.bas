@@ -167,6 +167,7 @@ class Lesson_01
                 if (str_contains(strtoupper($e), strtoupper($signat))) {
                     return $e;
                 };
-            });
+            }
+        );
     }
 }
