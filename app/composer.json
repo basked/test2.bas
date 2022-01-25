@@ -3,8 +3,11 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Basked\\App\\": "src/"
-        }
+            "Basked\\App\\": "src/",
+            "Classes\\": "classes/",
+            "Lessons\\L01\\": "lessons/l01"
+        },
+        "files": ["helpers/helpers.php"]
     },
     "authors": [
         {
