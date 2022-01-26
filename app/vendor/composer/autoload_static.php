@@ -10,7 +10,6 @@ class ComposerStaticInitf3da377b70ae0584b6cd5c8ae67e9889
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
-        '0bb8ae17bdbae48a0e6e148bbd1450c4' => __DIR__ . '/../..' . '/helpers/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -19,6 +18,10 @@ class ComposerStaticInitf3da377b70ae0584b6cd5c8ae67e9889
             'Symfony\\Polyfill\\Php80\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Component\\VarDumper\\' => 28,
+        ),
+        'P' => 
+        array (
+            'Patterns\\Creational\\FactoryMethod\\Product\\' => 42,
         ),
         'L' => 
         array (
@@ -47,6 +50,10 @@ class ComposerStaticInitf3da377b70ae0584b6cd5c8ae67e9889
         array (
             0 => __DIR__ . '/..' . '/symfony/var-dumper',
         ),
+        'Patterns\\Creational\\FactoryMethod\\Product\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/patterns/creational/factory_method/Product',
+        ),
         'Lessons\\L01\\' => 
         array (
             0 => __DIR__ . '/../..' . '/lessons/l01',
@@ -62,7 +69,9 @@ class ComposerStaticInitf3da377b70ae0584b6cd5c8ae67e9889
     );
 
     public static $classMap = array (
+        'Algoritms\\Recursion\\PaymentMoney' => __DIR__ . '/../..' . '/algoritms/recursion/1.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
+        'BasHelpers\\Helpers' => __DIR__ . '/../..' . '/helpers/Helpers.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Patterns\\Creational\\FactoryMethod\\Document\\CreatorSZ' => __DIR__ . '/../..' . '/patterns/creational/factory_method/Document/CreatorSZ.php',
         'Patterns\\Creational\\FactoryMethod\\Document\\CreatorTEO' => __DIR__ . '/../..' . '/patterns/creational/factory_method/Document/CreatorTEO.php',
@@ -70,6 +79,10 @@ class ComposerStaticInitf3da377b70ae0584b6cd5c8ae67e9889
         'Patterns\\Creational\\FactoryMethod\\Document\\DocumentCreator' => __DIR__ . '/../..' . '/patterns/creational/factory_method/Document/DocumentCreator.php',
         'Patterns\\Creational\\FactoryMethod\\Document\\DocumentSZ' => __DIR__ . '/../..' . '/patterns/creational/factory_method/Document/DocumentSZ.php',
         'Patterns\\Creational\\FactoryMethod\\Document\\DocumentTEO' => __DIR__ . '/../..' . '/patterns/creational/factory_method/Document/DocumentTEO.php',
+        'Patterns\\Creational\\FactoryMethod\\Product\\Product' => __DIR__ . '/../..' . '/patterns/creational/factory_method/Product/Product.php',
+        'Patterns\\Creational\\FactoryMethod\\Product\\ProductFactory' => __DIR__ . '/../..' . '/patterns/creational/factory_method/Product/ProductFactory.php',
+        'Patterns\\Creational\\FactoryMethod\\Product\\ProductSofa' => __DIR__ . '/../..' . '/patterns/creational/factory_method/Product/ProductSofa.php',
+        'Patterns\\Creational\\FactoryMethod\\Product\\ProductTable' => __DIR__ . '/../..' . '/patterns/creational/factory_method/Product/ProductTable.php',
         'Patterns\\Creational\\FactoryMethod\\Report\\Creator' => __DIR__ . '/../..' . '/patterns/creational/factory_method/Report/Creator.php',
         'Patterns\\Creational\\FactoryMethod\\Report\\CreatorCSV' => __DIR__ . '/../..' . '/patterns/creational/factory_method/Report/CreatorCSV.php',
         'Patterns\\Creational\\FactoryMethod\\Report\\CreatorXml' => __DIR__ . '/../..' . '/patterns/creational/factory_method/Report/CreatorXml.php',

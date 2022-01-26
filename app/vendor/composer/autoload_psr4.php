@@ -9,6 +9,7 @@ return array(
     'Symfony\\Polyfill\\Php80\\' => array($vendorDir . '/symfony/polyfill-php80'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Symfony\\Component\\VarDumper\\' => array($vendorDir . '/symfony/var-dumper'),
+    'Patterns\\Creational\\FactoryMethod\\Product\\' => array($baseDir . '/patterns/creational/factory_method/Product'),
     'Lessons\\L01\\' => array($baseDir . '/lessons/l01'),
     'Classes\\' => array($baseDir . '/classes'),
     'Basked\\App\\' => array($baseDir . '/src'),

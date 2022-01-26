@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/classes" isTestSource="false" packagePrefix="Classes\" />
       <sourceFolder url="file://$MODULE_DIR$/lessons/l01" isTestSource="false" packagePrefix="Lessons\L01\" />
+      <sourceFolder url="file://$MODULE_DIR$/patterns/creational/factory_method/Product" isTestSource="false" packagePrefix="Patterns\Creational\FactoryMethod\Product\" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php80" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/var-dumper" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />

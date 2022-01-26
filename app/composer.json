@@ -5,11 +5,14 @@
         "psr-4": {
             "Basked\\App\\": "src/",
             "Classes\\": "classes/",
-            "Lessons\\L01\\": "lessons/l01"
+            "Lessons\\L01\\": "lessons/l01/",
+            "Patterns\\Creational\\FactoryMethod\\Product\\": "patterns/creational/factory_method/Product"
         },
-        "files": ["helpers/helpers.php"],
         "classmap": ["patterns/creational/factory_method/Document",
-                   "patterns/creational/factory_method/Report"]
+                   "patterns/creational/factory_method/Report",
+                   "patterns/creational/factory_method/Product",
+                   "helpers",
+                   "algoritms/recursion"]
     },
     "authors": [
         {
