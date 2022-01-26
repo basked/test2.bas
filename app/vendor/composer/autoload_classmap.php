@@ -6,7 +6,9 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Algoritms\\Recursion\\PaymentMoney' => $baseDir . '/algoritms/recursion/1.php',
     'Attribute' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
+    'BasHelpers\\Helpers' => $baseDir . '/helpers/Helpers.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'Patterns\\Creational\\FactoryMethod\\Document\\CreatorSZ' => $baseDir . '/patterns/creational/factory_method/Document/CreatorSZ.php',
     'Patterns\\Creational\\FactoryMethod\\Document\\CreatorTEO' => $baseDir . '/patterns/creational/factory_method/Document/CreatorTEO.php',
@@ -14,6 +16,10 @@ return array(
     'Patterns\\Creational\\FactoryMethod\\Document\\DocumentCreator' => $baseDir . '/patterns/creational/factory_method/Document/DocumentCreator.php',
     'Patterns\\Creational\\FactoryMethod\\Document\\DocumentSZ' => $baseDir . '/patterns/creational/factory_method/Document/DocumentSZ.php',
     'Patterns\\Creational\\FactoryMethod\\Document\\DocumentTEO' => $baseDir . '/patterns/creational/factory_method/Document/DocumentTEO.php',
+    'Patterns\\Creational\\FactoryMethod\\Product\\Product' => $baseDir . '/patterns/creational/factory_method/Product/Product.php',
+    'Patterns\\Creational\\FactoryMethod\\Product\\ProductFactory' => $baseDir . '/patterns/creational/factory_method/Product/ProductFactory.php',
+    'Patterns\\Creational\\FactoryMethod\\Product\\ProductSofa' => $baseDir . '/patterns/creational/factory_method/Product/ProductSofa.php',
+    'Patterns\\Creational\\FactoryMethod\\Product\\ProductTable' => $baseDir . '/patterns/creational/factory_method/Product/ProductTable.php',
     'Patterns\\Creational\\FactoryMethod\\Report\\Creator' => $baseDir . '/patterns/creational/factory_method/Report/Creator.php',
     'Patterns\\Creational\\FactoryMethod\\Report\\CreatorCSV' => $baseDir . '/patterns/creational/factory_method/Report/CreatorCSV.php',
     'Patterns\\Creational\\FactoryMethod\\Report\\CreatorXml' => $baseDir . '/patterns/creational/factory_method/Report/CreatorXml.php',
