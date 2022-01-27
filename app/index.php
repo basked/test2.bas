@@ -50,5 +50,8 @@ require 'vendor/autoload.php';
 //$rec->showMessage();
 
 
-BasHelpers\Helpers::fill_header('asdsss');
+//BasHelpers\Helpers::fill_header('asdsss');
+
+$t=\Classes\Tek::showMessage('123');
+
 

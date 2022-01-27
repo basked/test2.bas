@@ -27,6 +27,11 @@ return array(
     'Patterns\\Creational\\FactoryMethod\\Report\\ReportCSV' => $baseDir . '/patterns/creational/factory_method/Report/ReportCSV.php',
     'Patterns\\Creational\\FactoryMethod\\Report\\ReportXml' => $baseDir . '/patterns/creational/factory_method/Report/ReportXml.php',
     'Stringable' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
+    'Structures\\SingleLinkedList\\Node' => $baseDir . '/Structures/SingleLinkedList/Node.php',
+    'Structures\\SingleLinkedList\\SingleLinkedList' => $baseDir . '/Structures/SingleLinkedList/SingleLinkedList.php',
+    'Structures\\Stack\\ReadingList' => $baseDir . '/structures/stack/ReadingList.php',
+    'Structures\\Stack\\ReadingListSpl' => $baseDir . '/structures/stack/ReadingListSpl.php',
+    'Traits\\BasMessage' => $baseDir . '/traits/Messages.php',
     'UnhandledMatchError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
     'ValueError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
 );

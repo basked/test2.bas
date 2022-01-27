@@ -12,7 +12,11 @@
                    "patterns/creational/factory_method/Report",
                    "patterns/creational/factory_method/Product",
                    "helpers",
-                   "algoritms/recursion"]
+                   "algoritms/recursion",
+                   "structures/stack",
+                   "traits",
+                   "Structures/SingleLinkedList"
+        ]
     },
     "authors": [
         {

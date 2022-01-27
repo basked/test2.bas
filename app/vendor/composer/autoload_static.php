@@ -90,6 +90,11 @@ class ComposerStaticInitf3da377b70ae0584b6cd5c8ae67e9889
         'Patterns\\Creational\\FactoryMethod\\Report\\ReportCSV' => __DIR__ . '/../..' . '/patterns/creational/factory_method/Report/ReportCSV.php',
         'Patterns\\Creational\\FactoryMethod\\Report\\ReportXml' => __DIR__ . '/../..' . '/patterns/creational/factory_method/Report/ReportXml.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
+        'Structures\\SingleLinkedList\\Node' => __DIR__ . '/../..' . '/Structures/SingleLinkedList/Node.php',
+        'Structures\\SingleLinkedList\\SingleLinkedList' => __DIR__ . '/../..' . '/Structures/SingleLinkedList/SingleLinkedList.php',
+        'Structures\\Stack\\ReadingList' => __DIR__ . '/../..' . '/structures/stack/ReadingList.php',
+        'Structures\\Stack\\ReadingListSpl' => __DIR__ . '/../..' . '/structures/stack/ReadingListSpl.php',
+        'Traits\\BasMessage' => __DIR__ . '/../..' . '/traits/Messages.php',
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
     );
